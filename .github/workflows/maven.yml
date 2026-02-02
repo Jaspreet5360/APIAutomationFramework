@@ -28,6 +28,3 @@ jobs:
     
     - name: Run API Tests
       run: mvn clean test -Dsuite=suite -X
-    
-ts/TEST-*.xml
-        reporter: java-junit
